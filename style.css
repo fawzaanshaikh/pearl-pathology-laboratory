@@ -1,0 +1,65 @@
+/*
+ ---------- Directory ----------
+
+ 1. General
+ 2. Header
+
+*/
+
+
+/* General */
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+header {
+    margin-top: -25px;
+    height: 100px;
+    background-color: rgb(0, 206, 0);
+}
+
+.header-text {
+    text-align: center;
+    position: relative;
+    top: 30px;
+    right: -10%;
+    color: rgb(233, 233, 233);
+    font-size: 20px;
+}
+
+.burger-menu {
+    height: 36px;
+    width: 40px;
+    position: relative;
+    top: -30px;
+    left: 20px;
+    background-color: rgb(0, 206, 0);
+    border: solid 2px rgb(0, 236, 0);
+    border-radius: 5px;
+}
+
+.burger-menu-strip {
+    height: 5px;
+    width: 35px;
+    margin: auto;
+    background-color: rgb(233, 233, 233);
+    border-radius: 5px;
+}
+
+#strip-1 {
+    position: relative;
+    top: 5px;
+}
+
+#strip-2 {
+    position: relative;
+    top: 10px;
+}
+
+#strip-3 {
+    position: relative;
+    top: 15px;
+}
