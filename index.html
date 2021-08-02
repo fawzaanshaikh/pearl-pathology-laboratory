@@ -16,10 +16,19 @@
                 <h2 id = "head">Pearl Pathology Laboratory</h2>
             </div>
 
-            <div class = "burger-menu" id = "burger-menu" onclick = "selectBurgerMenu()">
+            <div class = "burger-menu" id = "burger-menu" onclick = "onSelectBurgerMenuClick()">
                 <div class = "burger-menu-strip" id = "strip-1"></div>
                 <div class = "burger-menu-strip" id = "strip-2"></div>
                 <div class = "burger-menu-strip" id = "strip-3"></div>
+            </div>
+
+            <div class = "burger-menu-list" id = "burger-menu-list">
+                <ul class = "burger-menu-ulist">
+                    <li class = "burger-menu-list-element" onclick = "onBurgerMenuLinkClick(this)"><span class = "burer-menu-text">&nbsp;&nbsp;Home</span></li>
+                    <li class = "burger-menu-list-element" onclick = "onBurgerMenuLinkClick(this)"><span class = "burer-menu-text">&nbsp;&nbsp;About</span></li>
+                    <li class = "burger-menu-list-element" onclick = "onBurgerMenuLinkClick(this)"><span class = "burer-menu-text">&nbsp;&nbsp;Book An Appointment</span></li>
+                    <li class = "burger-menu-list-element" onclick = "onBurgerMenuLinkClick(this)"><span class = "burer-menu-text">&nbsp;&nbsp;Contact Us</span></li>
+                </ul>
             </div>
 
         </header>

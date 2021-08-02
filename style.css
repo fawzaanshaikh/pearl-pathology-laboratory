@@ -7,14 +7,14 @@
 */
 
 
-/* General */
+/* --- General --- */
 body {
     padding: 0;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Header */
+/* --- Header --- */
 header {
     margin-top: -25px;
     height: 100px;
@@ -30,6 +30,7 @@ header {
     font-size: 20px;
 }
 
+/* For mobile */
 .burger-menu {
     height: 36px;
     width: 40px;
@@ -62,4 +63,29 @@ header {
 #strip-3 {
     position: relative;
     top: 15px;
+}
+
+.burger-menu-list {
+    display: none;
+    height: 145px;
+    width: 205px;
+    position: relative;
+    top: -40px;
+    left: 20px;
+    background-color: rgb(244, 244, 244);
+    z-index: 3;
+}
+
+.burger-menu-ulist {
+    position: relative;
+    left: -40px;
+    list-style-type: none;
+    line-height: 30px;
+}
+
+.burger-menu-list-element {
+    height: 32px;
+    width: 195px;
+    text-decoration: none;
+    border-bottom: solid 2px rgb(200, 200, 200);
 }
