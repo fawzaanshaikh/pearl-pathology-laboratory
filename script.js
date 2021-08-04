@@ -28,7 +28,7 @@ function onBurgerMenuLinkClick(link, linkType) {
     if (burgerMenuLinkClicked == false) {
         link.style.backgroundColor = "rgb(255, 205, 0)";
         burgerMenuLinkClicked = true;
-        window.open(linkType + '.html');    // Opens the respective HTML page
+        window.open(linkType + '.html', "_self");    // Opens the respective HTML page
         setTimeout(() => {  // To timeout the colour change that is made after the div is clicked 
                 link.style.backgroundColor = "rgb(244, 244, 244)";
         }, 1000);
