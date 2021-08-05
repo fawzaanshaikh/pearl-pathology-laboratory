@@ -9,10 +9,11 @@
 
 
 /* --- General --- */
-body {
+* {
     padding: 0;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 
 /* --- Header --- */
@@ -101,7 +102,7 @@ header {
 }
 
 /* For Computer */
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 600px) {
     .burger-menu, .burger-menu-list {
         display: none;
     }
@@ -111,7 +112,7 @@ header {
     }
 
     .header-text {
-        top: 60px;
+        top: 100px;
         right: 0px;
         left: 700px;
         color: rgb(0, 236, 0);
@@ -121,8 +122,8 @@ header {
         display: block;
         width: 150px;
         position: relative;
-        top: -100px;
-        left: 180px;
+        top: -10px;
+        left: 200px;
     }
 
     .pearl-lab-logo:hover {
@@ -135,7 +136,7 @@ header {
         margin: 0 auto;
         display: table;
         position: relative;
-        top: -80px;
+        top: 10px;
         background-color: rgb(0, 206, 0);
         border-radius: 10px;
     }
@@ -165,7 +166,7 @@ header {
 /* --- Slideshow Container --- */
 
 /* For Computer */
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 600px) {
     .slideshow-container {
         max-width: 750px;
         position: relative;
