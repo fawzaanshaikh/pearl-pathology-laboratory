@@ -101,7 +101,7 @@ header {
 }
 
 /* For Computer */
-@media screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
     .burger-menu, .burger-menu-list {
         display: none;
     }
@@ -165,7 +165,7 @@ header {
 /* --- Slideshow Container --- */
 
 /* For Computer */
-@media screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
     .slideshow-container {
         max-width: 750px;
         position: relative;
