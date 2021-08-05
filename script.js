@@ -38,3 +38,14 @@ function onBurgerMenuLinkClick(link, linkType) {
         burgerMenuLinkClicked = false;
     }
 }
+
+/* For computer mode */
+function onNavbarLinkClick(link, linkType) {
+    if (burgerMenuLinkClicked == false) {
+        burgerMenuLinkClicked = true;
+        window.open(linkType + '.html', "_self");    // Opens the respective HTML page
+
+    } else {
+        burgerMenuLinkClicked = false;
+    }
+}
