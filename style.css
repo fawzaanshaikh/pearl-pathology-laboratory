@@ -41,19 +41,19 @@ header {
 }
 
 .burger-menu {
-    height: 65px;
-    width: 70px;
+    height: 45px;
+    width: 50px;
     position: relative;
-    top: -50px;
-    left: 40px;
+    top: 33px;
+    left: 20px;
     background-color: rgb(0, 206, 0);
     border: solid 2px rgb(0, 236, 0);
     border-radius: 5px;
 }
 
 .burger-menu-strip {
-    height: 7px;
-    width: 50px;
+    height: 5px;
+    width: 40px;
     margin: auto;
     background-color: rgb(233, 233, 233);
     border-radius: 5px;
@@ -61,43 +61,44 @@ header {
 
 #strip-1 {
     position: relative;
-    top: 10px;
+    height: 5px;
+    top: 5px;
 }
 
 #strip-2 {
     position: relative;
-    top: 20px;
+    top: 12px;
 }
 
 #strip-3 {
     position: relative;
-    top: 30px;
+    top: 20px;
 }
 
 .burger-menu-list {
     display: none;
-    height: 300px;
-    width: 305px;
+    height: 200px;
+    width: 205px;
     position: relative;
-    top: -60px;
-    left: 40px;
+    top: 30px;
+    left: 20px;
     background-color: rgb(244, 244, 244);
     z-index: 3;
-    font-size: 27px;
+    font-size: 17px;
 }
 
 .burger-menu-ulist {
     position: relative;
-    left: -40px;
-    top: 15px;
+    top: 10px;
+    left: 0px;
     list-style-type: none;
-    line-height: 30px;
+    line-height: 20px;
 }
 
 .burger-menu-list-element {
-    height: 50px;
-    width: 295px;
-    margin-top: 20px;
+    height: 40px;
+    margin-top: 10px;
+    width: 195px;
     border-bottom: solid 2px rgb(200, 200, 200);
 }
 
